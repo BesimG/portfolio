@@ -23,7 +23,7 @@ a {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -34,13 +34,27 @@ a {
 
 .item {
     margin: 10px;
+    order: 2;
+    width: 100%;
+    text-align: center;
+    /* display: none; */
 }
 
 a:hover {
     transform: scale(1.2);
+    transition-duration: .2s;
 }
 
 .menu li a {
     display: block;
     margin: 15px 5px;
+}
+
+.toggle {
+    order: 1;
+    font-size: 20px;
+}
+
+.active .item{
+    display: block;
 }
