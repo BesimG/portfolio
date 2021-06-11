@@ -1,3 +1,13 @@
+/* blue #0AD3F5
+   red #F52C0A 
+   white rgb(245, 245, 245)
+   black rgb(62, 62, 62) */
+
+   /* mist #90afc5
+   shadow #336b7
+   stone #2a3132
+   autumn foliage #763626 */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -8,7 +18,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     background-color: rgb(245, 245, 245);
-    color: rgb(62, 62, 62);
+    color: #2a3132;
 }
 
 nav {
@@ -17,7 +27,7 @@ nav {
 }
 
 a {
-    color: rgb(62, 62, 62);
+    color: #2a3132;
     text-decoration: none;
 }
 
@@ -60,3 +70,12 @@ a:hover {
 .active .item{
     display: block;
 }
+
+.jumbotron {
+    background-color: #763626;
+}
+
+.jumbotron .text-container {
+    color: rgb(245, 245, 245);
+}
+
