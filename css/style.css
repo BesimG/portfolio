@@ -134,3 +134,10 @@ h1 {
     padding-top: 20px;
     padding-bottom: 50px;
 }
+
+.project-text-container p {
+    width: 95%;
+    margin: auto;
+    text-align: center;
+}
+width: 80%;
