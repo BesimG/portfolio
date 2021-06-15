@@ -1,13 +1,13 @@
-/* blue #0AD3F5
-   red #F52C0A 
-   white rgb(245, 245, 245)
-   black rgb(62, 62, 62) */
+/* mist rgb(144, 175, 197)
+   stone rgb(51, 107, 135)
+   shadow rgb(42, 49, 50)
+   autumn-foliage rgb(118, 54, 38) */
 
    /* mist #90afc5
    stone #336b87
    shadow #2a3132
    autumn foliage #763626 */
-
+   
 * {
     box-sizing: border-box;
     margin: 0;
@@ -79,7 +79,8 @@ a:hover {
 }
 
 .avatar img{
-    height: 425px;
+    /* height: 425px; */
+    width: 100%;
 }
 
 .jumbotron .text-container {
@@ -114,17 +115,22 @@ h1 {
     color: rgb(245, 245, 245);
 }
 
+.social-links a {
+    color: rgb(144, 175, 197);
+    font-size: 25px;
+}
+
 .project-img {
-    width: 90%;
     margin: auto;
 }
 
 .project-img img {
-    height: 200px;
+    
+    width: 100%;
 }
 
 .project-text-container {
     background-color: #90afc5; 
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 50px;
 }
