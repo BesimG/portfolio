@@ -4,8 +4,8 @@
    black rgb(62, 62, 62) */
 
    /* mist #90afc5
-   shadow #336b7
-   stone #2a3132
+   stone #336b87
+   shadow #2a3132
    autumn foliage #763626 */
 
 * {
@@ -22,7 +22,6 @@ body {
 }
 
 nav {
-    /* background: #fff; */
     margin: 0 15px;
 }
 
@@ -30,6 +29,10 @@ a {
     color: #2a3132;
     text-decoration: none;
 }
+
+/* li .toggle:active {
+    color: #2a3132;
+} */
 
 .menu {
     list-style: none;
@@ -97,10 +100,31 @@ h1 {
     margin: auto;
 }
 
-.social-links {
-    margin-top: 40px;
-    margin-bottom: 40px;
-    display: flex;
-    justify-content: space-around
+.social-links-container {
+    background-color: #336b87;
+    /* height: 150px; */
 }
 
+.social-links {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: rgb(245, 245, 245);
+}
+
+.project-img {
+    width: 90%;
+    margin: auto;
+}
+
+.project-img img {
+    height: 200px;
+}
+
+.project-text-container {
+    background-color: #90afc5; 
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
