@@ -101,25 +101,6 @@ h1 {
     margin: auto;
 }
 
-.social-links-container {
-    background-color: #336b87;
-    /* height: 150px; */
-}
-
-.social-links {
-    padding-top: 40px;
-    padding-bottom: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    color: rgb(245, 245, 245);
-}
-
-.social-links a {
-    color: rgb(144, 175, 197);
-    font-size: 25px;
-}
-
 .project-img {
     margin: auto;
 }
@@ -140,4 +121,22 @@ h1 {
     margin: auto;
     text-align: center;
 }
-width: 80%;
+
+.social-links-container {
+    background-color: #336b87;
+    /* height: 150px; */
+}
+
+.social-links {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: rgb(245, 245, 245);
+}
+
+.social-links a {
+    color: rgb(144, 175, 197);
+    font-size: 25px;
+}
