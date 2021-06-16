@@ -77,14 +77,11 @@ h1 {
 }
 
 .project-text-container {
-    background-color: #90afc5; 
-    padding-top: 20px;
-    padding-bottom: 50px;
+    padding-top: 40px;
+    padding-bottom: 70px;
 }
 
 .project-text-container p {
-    width: 95%;
-    margin: auto;
-    text-align: center;
+    width: 85%;
 }
 }
