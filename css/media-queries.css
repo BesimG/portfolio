@@ -1,0 +1,90 @@
+/* Desktop menu */
+@media all and (min-width: 768px) {
+    body {
+        width: 95%;
+        margin: auto;
+    }
+    /* navbar */
+    .menu {
+        align-items: flex-start;     
+        flex-wrap: nowrap;
+        background: none;
+    }
+
+    .logo {
+        order: 0;
+    }
+
+    .item {
+        order: 1;
+        position: relative;
+        display: block; 
+        width: auto;
+    }
+    
+    .toggle {
+        display: none;
+    }
+
+    /* jumbotron */
+.jumbotron {
+    background-color: #763626;
+    display: grid;
+    /* https://css-tricks.com/snippets/css/complete-guide-grid/ */
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.avatar img{
+    width: 100%;
+}
+
+.avatar img:hover {
+    transform: scale(1.05);
+    transition-duration: .4s;
+}
+
+.avatar img:active {
+    transform: scale(1);
+    transition-duration: .4s;
+}
+
+.jumbotron .text-container {
+    color: rgb(245, 245, 245);
+    /* margin: 20px 0; */
+    margin: auto;
+    width: 95%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+h1 {
+    text-align: center
+}
+
+.container {
+    margin: auto;
+}
+
+/* projects */
+.project-img {
+    margin: auto;
+}
+
+.project-img img {
+    
+    width: 100%;
+}
+
+.project-text-container {
+    background-color: #90afc5; 
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.project-text-container p {
+    width: 95%;
+    margin: auto;
+    text-align: center;
+}
+}
