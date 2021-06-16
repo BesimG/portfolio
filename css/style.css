@@ -1,12 +1,8 @@
+/* colors */
 /* mist rgb(144, 175, 197)
    stone rgb(51, 107, 135)
    shadow rgb(42, 49, 50)
    autumn-foliage rgb(118, 54, 38) */
-
-   /* mist #90afc5
-   stone #336b87
-   shadow #2a3132
-   autumn foliage #763626 */
    
 * {
     box-sizing: border-box;
@@ -21,6 +17,7 @@ body {
     color: #2a3132;
 }
 
+/* navbar */
 nav {
     margin: 0 15px;
 }
@@ -74,6 +71,7 @@ a:hover {
     display: block;
 }
 
+/* jumbotron */
 .jumbotron {
     background-color: #763626;
 }
@@ -101,6 +99,7 @@ h1 {
     margin: auto;
 }
 
+/* projects */
 .project-img {
     margin: auto;
 }
@@ -122,6 +121,7 @@ h1 {
     text-align: center;
 }
 
+/* footer social links */
 .social-links-container {
     background-color: #336b87;
     /* height: 150px; */
@@ -140,3 +140,51 @@ h1 {
     color: rgb(245, 245, 245);
     font-size: 25px;
 }
+
+/* media query for tablet */
+@media only screen and (min-width: 768px) {
+    
+/* navbar */
+nav {
+    margin: 0 15px;
+}
+
+.menu {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 20px;
+    margin: 7.5px 10px 7.5px 0 ;
+}
+
+.item {
+    margin: 10px;
+    order: 2;
+    width: 100%;
+    text-align: center;
+    display: none;
+}
+
+a:hover {
+    transform: scale(1.2);
+    transition-duration: .2s;
+}
+
+.menu li a {
+    display: block;
+    margin: 15px 5px;
+}
+
+.toggle {
+    order: 1;
+    font-size: 20px;
+    display: none;
+}
+
+.active .item{
+    display: block;
+}
+  }
