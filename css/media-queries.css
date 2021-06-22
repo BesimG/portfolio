@@ -100,3 +100,18 @@ h1 {
     width: 85%;
 }
 }
+
+/* desktop */
+@media all and (min-width: 1024px) {
+
+.jumbotron {
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    /* grid-template-columns: repeat(2, 1fr); */
+}
+
+}
