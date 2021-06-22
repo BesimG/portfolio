@@ -1,10 +1,24 @@
-/* Desktop menu */
+/* tablet */
 @media all and (min-width: 768px) {
     body {
         width: 95%;
         margin: auto;
     }
     /* navbar */
+    
+    nav {
+        margin: 0;
+    }
+
+    nav .logo a {
+        margin-left: 0;
+    }
+    
+    .menu .item:nth-last-child(2),
+    .menu .item:nth-last-child(2) a {
+        margin-right: 0;
+    }
+    
     .menu {
         align-items: flex-start;     
         flex-wrap: nowrap;
