@@ -79,21 +79,28 @@ a:hover {
 .jumbotron {
     background-color: #763626;
 }
+
 .avatar img {
     width: 100%;
+}
+
+.avatar img,
+.project-img {
     transition-duration: .4s;
 }
 
-.avatar img:hover {
+.avatar img:hover,
+.project-img:hover {
     transform: scale(1.05);
 }
 
 .avatar img:active {
     transform: scale(1);
 }
-/* .avatar img{
-    width: 100%;
-} */
+
+.project-img {
+    transition-duration: .4s; 
+}
 
 .jumbotron .text-container {
     color: rgb(245, 245, 245);
