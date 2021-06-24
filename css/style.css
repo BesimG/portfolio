@@ -111,6 +111,23 @@ a:hover {
     padding-top: 10px;
     padding-bottom: 40px;
 }
+/* non footer social links */
+.main-social-links-container {
+    background-color: #90afc5; 
+}
+
+.main-social-links a {
+    color: rgb(245, 245, 245);
+    font-size: 50px;
+}
+main .fab.fa-github,
+main .fab.fa-linkedin {
+    font-size: 45px;
+}
+/* .fab .fa-github,
+.fab .fa-linkedin {
+    font-size: 40px;
+} */
 
 h1 {
     text-align: center
