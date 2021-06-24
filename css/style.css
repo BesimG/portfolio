@@ -116,21 +116,20 @@ a:hover {
     background-color: #90afc5; 
 }
 
-.main-social-links a {
+/* .main-social-links a {
     color: rgb(245, 245, 245);
     font-size: 50px;
-}
+} */
+
 main .fab.fa-github,
 main .fab.fa-linkedin {
     font-size: 45px;
 }
-/* .fab .fa-github,
-.fab .fa-linkedin {
-    font-size: 40px;
-} */
 
-h1 {
-    text-align: center
+h1,
+h2 {
+    text-align: center;
+    color: rgb(245, 245, 245);
 }
 
 .container {
@@ -157,6 +156,7 @@ h1 {
     width: 95%;
     margin: auto;
     text-align: center;
+    color: rgb(245, 245, 245);
 }
 
 /* footer social links */
