@@ -78,6 +78,7 @@ a:hover {
 /* jumbotron */
 .jumbotron {
     background-color: #763626;
+    overflow: hidden;
 }
 
 .avatar img {
@@ -135,6 +136,7 @@ h2 {
 
 .container {
     margin: auto;
+    overflow: hidden;
 }
 
 /* projects */
