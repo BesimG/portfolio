@@ -98,10 +98,6 @@ a:hover {
     transform: scale(1);
 }
 
-.project-img {
-    transition-duration: .4s; 
-}
-
 .jumbotron .text-container {
     color: rgb(245, 245, 245);
     /* margin: 20px 0; */
@@ -111,6 +107,7 @@ a:hover {
     padding-top: 10px;
     padding-bottom: 40px;
 }
+
 /* non footer social links */
 .main-social-links-container {
     background-color: #90afc5; 
@@ -132,6 +129,10 @@ h2 {
     color: rgb(245, 245, 245);
 }
 
+h2 {
+    margin-top: 30px;
+}
+
 .container {
     margin: auto;
 }
@@ -139,6 +140,15 @@ h2 {
 /* projects */
 .project-img {
     margin: auto;
+}
+
+.project {
+    width: 100%;
+    background-color: #90afc5;
+}
+
+.project-img {
+    width: 90%;
 }
 
 .project-img img {
