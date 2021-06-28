@@ -85,18 +85,18 @@ a:hover {
     width: 100%;
 }
 
-/* .avatar img,
+/* .avatar img, */
 .project-img {
-    transform: scale(1.1);
+    transform: scale(1);
     transition-duration: .4s;
 }
 
-.avatar img:hover,
+/* .avatar img:hover, */
 .project-img:hover {
-    transform: scale(1);
+    transform: scale(1.05);
 }
 
-.avatar img:active {
+/* .avatar img:active {
     transform: scale(1);
 } */
 
@@ -129,9 +129,15 @@ h1,
 h2 {
     text-align: center;
     color: rgb(245, 245, 245);
+    margin-bottom: 25px;
+}
+
+h1 {
+    font-size: 42px;
 }
 
 h2 {
+    font-size: 32px;
     margin-top: 30px;
 }
 
@@ -148,7 +154,7 @@ h2 {
 .project {
     width: 100%;
     background-color: #90afc5;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .project-img {

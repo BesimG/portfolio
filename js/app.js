@@ -1,20 +1,13 @@
-const toggle = document.querySelector(".toggle");
-const menu = document.querySelector(".menu");
+// https://www.webhostingsecretrevealed.net/blog/featured-articles/15-cool-javascript-sample-snippets/
 
-// toggle mobile menu
-function toggleMenu() {
-    if (menu.classList.contains("active")) {
-        menu.classList.remove("active");
+var date = document.querySelector("#date");
 
-        // adds the menu (hamburger) icon
-        toggle.querySelector("a").innerHTML = "<i class=’fas fa-bars’></i>";
-    } else {
-        menu.classList.add("active");
+const showDate = function() {
+    var d = new Date();
+    var curr_date = d.getDate();
+    var curr_month = d.getMonth() + 1; //months are zero based
+    var curr_year = d.getFullYear();
+    document.write(curr_date + "-" + curr_month + "-" + curr_year);
+  }
 
-        // adds the close (x) icon
-        toggle.querySelector("a").innerHTML = "<i class=’fas fa-bars’></i>";
-    }
-}
-
-// event listener
-toggle.addEventListener("click", toggleMenu, false);
+  showDate();
