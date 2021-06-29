@@ -83,7 +83,7 @@ a:hover {
 
 .avatar img {
     width: 100%;
-    border-radius: 10px;
+    /* border-radius: 10px; */
 }
 
 .project-img {
@@ -91,9 +91,9 @@ a:hover {
     transition-duration: .4s;
 }
 
-.project-img img{
+/* .project-img img{
     border-radius: 10px;
-}
+} */
 
 .project-img:hover {
     transform: scale(1.05);
