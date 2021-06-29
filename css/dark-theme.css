@@ -1,0 +1,28 @@
+@import url('./light-theme.css');
+
+body {
+    color: blue;
+    background-color: lavender;
+}
+
+nav,
+footer {
+    background-color: pink;
+}
+
+nav a,
+.social-links {
+    color: purple;
+}
+
+h1 {
+    color: yellow;
+}
+
+h1::after {
+    background-color: yellow;
+}
+
+h2 {
+    color: tomato;
+}
