@@ -1,13 +1,16 @@
-// https://www.webhostingsecretrevealed.net/blog/featured-articles/15-cool-javascript-sample-snippets/
-
-var date = document.querySelector("#date");
-
-const showDate = function() {
-    var d = new Date();
-    var curr_date = d.getDate();
-    var curr_month = d.getMonth() + 1; //months are zero based
-    var curr_year = d.getFullYear();
-    document.write(curr_date + "-" + curr_month + "-" + curr_year);
-  }
-
-  showDate();
+// js functionality for dark mode
+document.addEventListener('DOMContentLoaded', () => {
+    const themeStylesheet = document.getElementById('theme');
+    const themeToggle = document.getElementById('theme-toggle');
+    themeToggle.addEventListener('click', () => {
+        // if it's light -> go dark
+        if(themeStylesheet.href.includes('dark')){
+            themeStylesheet.href = 'css/light-theme.css';
+            themeToggle.innerText = 'Switch to dark mode'
+        } else {
+            // if it's dark -> go light
+            themeStylesheet.href = 'css/dark-theme.css';
+            themeToggle.innerText = 'Switch to light mode';
+        }
+    })
+})
