@@ -83,22 +83,21 @@ a:hover {
 
 .avatar img {
     width: 100%;
+    border-radius: 10px;
 }
 
-/* .avatar img, */
 .project-img {
     transform: scale(1);
     transition-duration: .4s;
 }
 
-/* .avatar img:hover, */
+.project-img img{
+    border-radius: 10px;
+}
+
 .project-img:hover {
     transform: scale(1.05);
 }
-
-/* .avatar img:active {
-    transform: scale(1);
-} */
 
 .jumbotron .text-container {
     color: rgb(245, 245, 245);
