@@ -75,9 +75,23 @@ a:hover {
     display: block;
 }
 
+#theme-toggle {
+    color: rgb(245, 245, 245);
+    background-color: rgb(51, 107, 135);
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    transition: all .2s;
+}
+
+#theme-toggle:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
 /* jumbotron */
 .jumbotron {
-    background-color: #763626;
+    background-color: rgb(118, 54, 38);
     /* overflow: hidden; */
 }
 
