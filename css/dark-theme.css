@@ -1,28 +1,39 @@
 @import url('./light-theme.css');
 
 body {
-    color: blue;
-    background-color: lavender;
+    background-color: rgb(0, 0, 0);
 }
 
 nav,
-footer {
-    background-color: pink;
+.main-social-links-container,
+.social-links-container {
+    background-color: rgb(33, 33, 33);
 }
 
 nav a,
-.social-links {
-    color: purple;
-}
-
-h1 {
-    color: yellow;
-}
-
-h1::after {
-    background-color: yellow;
-}
-
+.social-links,
+h1,
 h2 {
-    color: tomato;
+    color: rgb(245, 245, 245);
 }
+
+.jumbotron {
+    background-color: rgb(58, 58, 58);
+}
+
+.project,
+.project-text-container {
+    background-color: rgb(58, 58, 58);
+}
+
+/* h1 {
+    color: yellow;
+} */
+
+/* h1::after {
+    background-color: yellow;
+} */
+
+/* h2 {
+    color: tomato;
+} */

@@ -43,7 +43,7 @@
 
     /* jumbotron */
 .jumbotron {
-    background-color: #763626;
+    /* background-color: #763626; */
     display: grid;
     /* https://css-tricks.com/snippets/css/complete-guide-grid/ */
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
