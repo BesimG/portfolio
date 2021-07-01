@@ -31,24 +31,8 @@ h2 {
     transform: translateY(-3px);
 }
 
-/* .jumbotron {
-    background-color: rgb(58, 58, 58);
-} */
-
 .project,
 .project-text-container,
 .main-social-links-container {
     background-color: rgb(58, 58, 58);
 }
-
-/* h1 {
-    color: yellow;
-} */
-
-/* h1::after {
-    background-color: yellow;
-} */
-
-/* h2 {
-    color: tomato;
-} */
