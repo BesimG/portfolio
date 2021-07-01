@@ -27,10 +27,6 @@ a {
     text-decoration: none;
 }
 
-/* li .toggle:active {
-    color: #2a3132;
-} */
-
 .menu {
     list-style: none;
     display: flex;
@@ -58,7 +54,6 @@ a {
 
 a:hover {
     transform: scale(1.2);
-    /* transition-duration: .2s; */
 }
 
 .menu li a {
@@ -75,6 +70,7 @@ a:hover {
     display: block;
 }
 
+/* light/dark mode  */
 .btn-container {
     display: flex;
     align-content: center;
@@ -100,12 +96,10 @@ a:hover {
 /* jumbotron */
 .jumbotron {
     background-color: rgb(118, 54, 38);
-    /* overflow: hidden; */
 }
 
 .avatar img {
     width: 100%;
-    /* border-radius: 10px; */
 }
 
 .project-img {
@@ -113,17 +107,12 @@ a:hover {
     transition-duration: .4s;
 }
 
-/* .project-img img{
-    border-radius: 10px;
-} */
-
 .project-img:hover {
     transform: scale(1.05);
 }
 
 .jumbotron .text-container {
     color: rgb(245, 245, 245);
-    /* margin: 20px 0; */
     margin: auto;
     width: 95%;
     text-align: center;
@@ -135,11 +124,6 @@ a:hover {
 .main-social-links-container {
     background-color: #90afc5; 
 }
-
-/* .main-social-links a {
-    color: rgb(245, 245, 245);
-    font-size: 50px;
-} */
 
 main .fab.fa-github,
 main .fab.fa-linkedin {
@@ -169,7 +153,6 @@ p {
 
 .container {
     margin: auto;
-    /* overflow: hidden; */
 }
 
 /* projects */
@@ -180,7 +163,6 @@ p {
 .project {
     width: 100%;
     background-color: #90afc5;
-    /* overflow: hidden; */
 }
 
 .project-img {
@@ -208,7 +190,6 @@ p {
 /* footer social links */
 .social-links-container {
     background-color: #336b87;
-    /* height: 150px; */
 }
 
 .social-links {
